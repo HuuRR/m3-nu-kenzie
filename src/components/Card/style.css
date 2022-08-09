@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.card {
+  display: flex;
+  width: 560px;
+  height: 87px;
+  margin: 0px;
+  background-color: rgba(248, 249, 250, 1);
+  border-radius: 4px;
+  margin-bottom: 32px;
+}
+
+.card--neg {
+  border-left: 4px solid #e9ecef;
+}
+
+.card--pos {
+  border-left: 4px solid #03b898;
+}
+
+.desc-tipe {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.desc {
+  margin: 0px;
+  margin-left: 18px;
+  margin-top: 8px;
+  width: 337px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.type {
+  margin: 0px;
+  margin-left: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #5b6166;
+  text-transform: capitalize;
+}
+
+.value {
+  margin: 0px;
+  margin-top: 18px;
+  width: 102px;
+  font-family: "Nunito", sans-serif;
+  font-size: 400px;
+  font-size: 12px;
+  color: #212529;
+  margin-left: 41px;
+  margin-right: 20px;
+}
+
+.card > span {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9ecef;
+  margin: 0px;
+  margin-right: 22px;
+  margin-top: 12px;
+}
+
+.card > span > i {
+  color: #5b6166;
+}

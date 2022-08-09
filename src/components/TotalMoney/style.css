@@ -1,0 +1,51 @@
+.container--total {
+  display: flex;
+  flex-direction: row;
+  height: 96px;
+  width: 363px;
+  box-sizing: border-box;
+  border: 1px solid rgba(233, 236, 239, 1);
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.div-infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-infos > label {
+  width: 84px;
+  height: 30px;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+.div-infos > spam {
+  width: 138px;
+  height: 22px;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #5b6166;
+  margin-top: 6px;
+  margin-left: 24px;
+}
+
+.div--valor > p {
+  width: 70px;
+  height: 30px;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fd377e;
+  margin-top: 20px;
+  margin-right: 24px;
+}

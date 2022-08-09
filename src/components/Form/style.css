@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+form {
+  height: 351px;
+  width: 363px;
+  box-sizing: border-box;
+  border: 1px solid rgba(233, 236, 239, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+form > .div-desc {
+  display: flex;
+  flex-direction: column;
+}
+form > .div-desc > .spam-desc {
+  height: 22px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(33, 37, 41, 1);
+  margin-top: 38px;
+  margin-left: 26.4px;
+}
+
+form > .div-desc > input {
+  width: 325px;
+  height: 53px;
+  margin: auto;
+  border-radius: 8px;
+  padding: 0 16px 0 16px;
+  gap: 10px;
+  background-color: rgba(248, 249, 250, 1);
+  box-sizing: border-box;
+  border: 2px solid rgba(248, 249, 250, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(33, 37, 41, 1);
+}
+
+form > .div-desc > .exemplo {
+  height: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(134, 142, 150, 1);
+  margin-left: 24.5px;
+}
+
+form > .div-valor-tipo {
+  display: flex;
+  flex-direction: row;
+}
+
+form > .div-valor-tipo > .div-valor {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+form > .div-valor-tipo > .div-valor > spam {
+  height: 22px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 17.7px;
+  margin-left: 25.4px;
+  margin-bottom: 8px;
+  color: rgba(33, 37, 41, 1);
+}
+
+form > .div-valor-tipo > .div-valor > input {
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 0px;
+  width: 128px;
+  height: 48px;
+  padding: 0px 16px;
+  gap: 10px;
+  background-color: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #868e96;
+}
+
+form > .div-valor-tipo > .div-valor > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+form > .div-valor-tipo > .div-tipo {
+  display: flex;
+  flex-direction: column;
+}
+form > .div-valor-tipo > .div-tipo > spam {
+  height: 22px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 17.7px;
+  margin-bottom: 8px;
+  color: rgba(33, 37, 41, 1);
+}
+
+form > .div-valor-tipo > .div-tipo > select {
+  box-sizing: border-box;
+  height: 48px;
+  width: 150px;
+  padding: 0px 16px;
+  gap: 10px;
+  background-color: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: #5b6166;
+  /* ANGLE-DOWN */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+form > .div-botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 122px;
+}
+
+form > .div-botao > button {
+  box-sizing: border-box;
+  height: 48px;
+  width: 314px;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+  background-color: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+form > .div-botao > button:hover {
+  box-sizing: border-box;
+  padding: 13px 20px;
+  gap: 10px;
+  background: #e34981;
+  border: 2px solid #e34981;
+  border-radius: 8px;
+}
